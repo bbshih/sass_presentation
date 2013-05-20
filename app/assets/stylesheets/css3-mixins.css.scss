@@ -1,0 +1,21 @@
+// Compass comes with built in mixins
+// http://compass-style.org/reference/compass/
+
+table {
+  font-size: 14px;
+  border: 20px solid black;
+}
+
+.radius {
+  // Standard CSS3
+  // Cross browser border radius style
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-radius: 25px;
+
+  // Compass built-in cross browser mix-in
+  // @include border-radius(25px);
+}
+

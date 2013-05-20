@@ -1,0 +1,26 @@
+// Standard CSS with everything separated
+table {
+  border: 15px solid green;
+}
+
+th {
+  font-size: 25px;
+}
+
+td {
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+// SCSS nesting to help readability
+// table {
+//   border: 15px solid green;
+//   th {
+//     font-size: 25px;
+//   }
+//   td {
+//     font-size: 20px;
+//     padding-left: 30px;
+//   }
+
+// }

@@ -1,6 +1,7 @@
 SassPresentation::Application.routes.draw do
   resources :habits
 
+  root :to => "habits#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

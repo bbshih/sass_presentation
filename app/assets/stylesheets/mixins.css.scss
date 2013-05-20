@@ -1,0 +1,44 @@
+// Mixins
+
+// p {
+//   background-image: url("/assets/mindblown.gif");
+//   height: 200px;
+// }
+
+// h1 {
+//  // background-image: url("/assets/mindblown.gif");
+//  // height: 200px;
+// }
+
+// SASS Mixin Example 1
+// SASS adds mixins so you can quickly add snippets of CSS to any location
+@mixin mindblown {
+  background-image: image-url("mindblown.gif");
+  height: 200px;
+}
+
+p {
+  @include mindblown;
+}
+
+h1 {
+  @include mindblown;
+}
+
+// SASS Mixin Example 2
+// You can also add an argument to the mixin to customize the code whereever it is used
+
+// @mixin mindblown($height) {
+//   background-image: image-url("mindblown.gif");
+//   height: $height;
+// }
+
+// p {
+//   @include mindblown(200px);
+// }
+
+// h1 {
+//   @include mindblown(300px);
+// }
+
+
