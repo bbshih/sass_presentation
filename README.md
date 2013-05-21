@@ -1,23 +1,59 @@
-# Billy explains SASS
-## Syntactically Awesome Stylesheets ##
-Sass is an extension of CSS3 that adds on features that programming languages have that CSS lacks. These features make it easier to write and manage CSS.
+# Billy Explains Sass
+
+Presentation for @codefellowsorg - follow along if you like:
+
+    git clone git@github.com:bbshih/sass_presentation.git
+
+## SASS = Syntactically Awesome Stylesheets
+TL;DR Sass is an extension of CSS3 that adds on features that programming languages have that CSS lacks. These features make it easier to write and manage CSS.
+
+Features of Sass:
+  - Variables
+  - Nesting
+  - Mixins
+  - Selector inheritance
 
 Sass has 2 syntaxes:
+  - Indented syntax(.sass) - Similar to Haml
+  - SCSS(.scss) - Uses CSS semantics, so CSS is valid SCSS (I'll be using this in the demo)
 
-  - Indented syntax - Similar to Haml
-  - SCSS - Uses CSS semantics, so CSS is valid SCSS (I'll be using this in the demo)
-  - Follow along: git clone git@github.com:bbshih/sass_presentation.git
+## How to install
 
-  - Provides the following mechanisms
-    - Variables
-    - Nesting
-    - Mixins
-    - Selector inheritance
-- Variables
-  - Being with a $ sign and assign value with a :
+    gem install compass
+Also installs Sass, but you may have Sass in your Gemfile already too.
+
+
+Rename your application.css to application.css.scss to change it into a Sass file.
+
+To use compass, add to your application.css.scss file:
+
+    @import "compass"
+
+**To add compass to an existing project**
+
+    Install compass
+
+Then in your Gemfile, inside 'group :assets' block, add:
+
+    gem 'compass-rails'
+
+Then rename your application.css and add the import as mentioned above.
+
+## Follow along the presentation
+
+    git clone git@github.com:bbshih/sass_presentation.git
+
+Open up this file: /app/assets/stylesheets/application.css.scss
+
+## Summary
+
+Sass uses:
+
+- Variables:
+  - Create a variable by using _$name_ and assign value with a :. e.g. $highlight: #ff0000;
   - Supports 4 data types: numbers (and units), strings, colors and booleans
 - Nesting
-  - Allows you to nest code for better organization and readability
+  - Place child styles within a parent for better organization and readability
 - Mixins
   - A selection of code that contains any valid Sass code. Whenever the mixin is called, it is inserted into the location
   - Define by using @mixin name {} and then calling @include name
@@ -29,16 +65,4 @@ Sass has 2 syntaxes:
   - @include name(value)
 - Selector inheritance
   - Use CSS of another selector by usng @extend selectorname
-- Install
-- http://thesassway.com/beginner/getting-started-with-sass-and-compass
-  - gem install sass
-  - Found in gemfile:
-    - gem 'sass-rails',   '~> 3.2.3'
-  - gem install compass will install sass too
-  - gem install css_parser
-    - Allows use of 'compass stats' which outputs a "report that gives a count of the Sass rules, properties, mixins defined and mixins used as well as the CSS rules and properties that get output from your Sass-stylesheets."
 
-- Install compass
-  - In 'group :assets do' add: gem 'compass-rails'
-  - add .scss to application.css
-    - Add @import "compass"
