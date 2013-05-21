@@ -1,22 +1,9 @@
+// =====
 // Standard CSS
 // .seriousAlert is based off alert, but you need to remember
 // to include both when creating the HTML
 // <div class="alert seriousAlert></div>
-
-// .alert {
-//   background-color: red;
-//   font-size: 20px;
-//   text-align: center;
-// }
-
-// .seriousAlert {
-//   border: 5px solid red;
-// }
-
-
-// Compass
-// Add @extend then the name of what you want to copy
-
+// =====
 .alert {
   background-color: red;
   font-size: 20px;
@@ -24,6 +11,20 @@
 }
 
 .seriousAlert {
-  @extend alert;
   border: 5px solid red;
 }
+
+// =====
+// Compass
+// Add @extend then the name of what you want to copy
+// =====
+// .alert {
+//   background-color: red;
+//   font-size: 20px;
+//   text-align: center;
+// }
+
+// .seriousAlert {
+//   @extend alert;
+//   border: 5px solid red;
+// }

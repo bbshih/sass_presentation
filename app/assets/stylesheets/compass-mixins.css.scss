@@ -1,0 +1,48 @@
+// =====
+// Compass comes with built in mixins
+// http://compass-style.org/reference/compass/
+// =====
+
+// table {
+//   font-size: 14px;
+//   border: 20px solid black;
+// }
+
+
+// Standard CSS3
+// Cross browser border radius style
+// .radius {
+//   -webkit-border-radius: 25px;
+//   -moz-border-radius: 25px;
+//   -ms-border-radius: 25px;
+//   -o-border-radius: 25px;
+//   border-radius: 25px;
+// }
+
+// =====
+// Compass built-in cross browser mixin
+// =====
+// .radius {
+//   // @include border-radius(25px);
+// }
+
+// Standard CSS
+// Link styling
+// a {color: #ff1144;}
+// a:hover {color: #ff0000;}
+// a:active {color: #550000;}
+// a:visited {color: #33ff11;}
+// a:focus {color: #111111;}
+
+// =====
+// Compass built-in mixin to set link colors
+// =====
+// a {
+//   @include link-colors(#ff1144, #ff0000, #550000,
+//                           #33ff11, #111111)
+// }
+
+// Compass vertical rhythm mixin to manage typography
+// $base-font-size: 12px;
+// $base-line-height: 15px;
+// @include establish-baseline;

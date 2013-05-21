@@ -1,4 +1,6 @@
+// =====
 // Standard CSS with everything separated
+// =====
 table {
   border: 15px solid green;
 }
@@ -12,7 +14,9 @@ td {
   padding-left: 30px;
 }
 
+// =====
 // SCSS nesting to help readability
+// =====
 // table {
 //   border: 15px solid green;
 //   th {
