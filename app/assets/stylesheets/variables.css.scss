@@ -1,6 +1,7 @@
+//*
 // =====
 // Standard CSS
-// Repeat the color wherever you have it
+// Change the color of h2 and th
 // =====
 h2 {
   color: #ff00ee;
@@ -10,14 +11,30 @@ th {
   background-color: #ff00ee;
 }
 
+a {
+  color: #ff00ee;
+}
 
-// SCSS allows usage of variables so you can change it in one place
-// $bright: #ff00ee;
+/*/
+// SCSS allows usage of variables so you can change it in one 
+// place
 
-// h2 {
-//   color: $bright;
-// }
 
-// th {
-//   background-color: $bright;
-// }
+$pink: #ff00ee;
+$green: #11aa00;
+
+$bright: $green;
+$link: $pink;
+
+h2 {
+  color: $bright;
+}
+
+th {
+  background-color: $bright;
+}
+
+a {
+  color: $link;
+}
+//*/

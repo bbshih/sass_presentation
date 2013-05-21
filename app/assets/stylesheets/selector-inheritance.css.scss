@@ -1,3 +1,4 @@
+//*
 // =====
 // Standard CSS
 // .seriousAlert is based off alert, but you need to remember
@@ -11,9 +12,10 @@
 }
 
 .seriousAlert {
-  border: 5px solid red;
+  border: 5px solid blue;
 }
 
+/*/
 // =====
 // Compass
 // Add @extend then the name of what you want to copy
@@ -25,6 +27,7 @@
 // }
 
 // .seriousAlert {
-//   @extend alert;
-//   border: 5px solid red;
+//   @extend .alert;
+//   border: 5px solid blue;
 // }
+//*/

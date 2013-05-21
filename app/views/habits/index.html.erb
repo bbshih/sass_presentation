@@ -4,23 +4,23 @@
   The number 1 site for becoming and staying awesome.
 </p>
 
-<div class="alert seriousAlert">
+<div class="seriousAlert">
   You haven't checked off any habits!
 </div>
 
-<table class='radius'>
+<table class='radius main'>
   <tr>
     <th>Name</th>
     <th>Description</th>
     <th>Completed</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>Show</th>
+    <th>Edit</th>
+    <th>Destroy</th>
   </tr>
 
 <% @habits.each do |habit| %>
   <tr>
-    <td><%= habit.name %></td>
+    <td class='main'><%= habit.name %></td>
     <td><%= habit.description %></td>
     <td><%= habit.completed %></td>
     <td><%= link_to 'Show', habit %></td>

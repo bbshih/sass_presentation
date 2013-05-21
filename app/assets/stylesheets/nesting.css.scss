@@ -1,30 +1,33 @@
+//*
 // =====
 // Standard CSS with everything separated
 // =====
-table {
-  border: 15px solid green;
+.main {
+  border: 5px solid green;
+  font-size:20px;
+}
+
+.main th {
+  color: red;
 }
 
 th {
-  font-size: 25px;
+  color: blue;
 }
 
-td {
-  font-size: 20px;
-  padding-left: 30px;
-}
-
+/*/
 // =====
-// SCSS nesting to help readability
+// SCSS nesting to help readability and save keystrokes
 // =====
-// table {
-//   border: 15px solid green;
+// .main {
+//   border: 5px solid green;
+//   font-size:20px;
 //   th {
-//     font-size: 25px;
+//     color: red;
 //   }
-//   td {
-//     font-size: 20px;
-//     padding-left: 30px;
-//   }
-
 // }
+
+// th {
+//   color: blue;
+// }
+//*/

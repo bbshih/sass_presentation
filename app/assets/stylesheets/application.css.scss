@@ -1,13 +1,19 @@
 // =====
 // SASS vs CSS examples
 // =====
+// Examples of different features of SASS in each imported file
+
 // @import "variables";
+
 // @import "nesting";
+
 // @import "mixins";
+
 // @import "selector-inheritance";
 
 // =====
 // Compass framework
 // =====
-// @import "compass";
+// @import "compass"; // Necessary to use Compass mixins
 // @import "compass-mixins";
+//
