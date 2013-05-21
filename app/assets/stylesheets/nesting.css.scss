@@ -1,3 +1,5 @@
+//Toggle styles by deleting the first slash below
+
 //*
 // =====
 // Standard CSS with everything separated
@@ -19,15 +21,15 @@ th {
 // =====
 // SCSS nesting to help readability and save keystrokes
 // =====
-// .main {
-//   border: 5px solid green;
-//   font-size:20px;
-//   th {
-//     color: red;
-//   }
-// }
+.main {
+  border: 5px solid green;
+  font-size:20px;
+  th {
+    color: red;
+  }
+}
 
-// th {
-//   color: blue;
-// }
+th {
+  color: blue;
+ }
 //*/

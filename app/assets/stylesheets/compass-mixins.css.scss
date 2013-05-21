@@ -1,37 +1,42 @@
+//Toggle styles by deleting the first slash below
 //*
 // =====
 // Compass comes with built in mixins
 // http://compass-style.org/reference/compass/
 // =====
 
+// Standard CSS3
+// Cross browser border radius style
+.radius {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-radius: 25px;
+}
+
 table {
   border: 20px solid orange;
 }
-
-// Standard CSS3
-// Cross browser border radius style
-// .radius {
-//   -webkit-border-radius: 25px;
-//   -moz-border-radius: 25px;
-//   -ms-border-radius: 25px;
-//   -o-border-radius: 25px;
-//   border-radius: 25px;
-// }
 
 /*/
 // =====
 // Compass built-in cross browser mixin
 // =====
-// .radius {
-//   @include border-radius(25px);
-// }
-//*/
+ .radius {
+   @include border-radius(25px);
+ }
+
+table {
+  border: 20px solid orange;
+}
 
 //*/
+
 // =====
 // Compass vertical rhythm mixin to manage typography
 // =====
-$base-font-size: 20px;
-$base-line-height: 35px;
+$base-font-size: 16px;
+$base-line-height: 15px;
 @include establish-baseline;
-/*
+

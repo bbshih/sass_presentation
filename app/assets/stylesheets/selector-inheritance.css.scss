@@ -1,3 +1,4 @@
+//Toggle styles by deleting the first slash below
 //*
 // =====
 // Standard CSS
@@ -20,14 +21,14 @@
 // Compass
 // Add @extend then the name of what you want to copy
 // =====
-// .alert {
-//   background-color: red;
-//   font-size: 20px;
-//   text-align: center;
-// }
+.alert {
+  background-color: red;
+  font-size: 20px;
+  text-align: center;
+}
 
-// .seriousAlert {
-//   @extend .alert;
-//   border: 5px solid blue;
-// }
+.seriousAlert {
+  @extend .alert;
+  border: 5px solid blue;
+}
 //*/

@@ -1,6 +1,6 @@
 # Learn Sass + Compass Quick
 
-Lightning talk for [Code Fellows](http://www.codefellows.org) - Slides in detailed form are below and following demo can be followed by installing compass, cloning the repo and then opening the application.css.scss file.
+Lightning talk for [Code Fellows](http://www.codefellows.org) - [Slides](http://www.slideshare.net/billyshih/learn-sass-and-compass-quick-21581469) and notes below and following demo can be followed by installing compass, cloning the repo and then opening the application.css.scss file.
 
     gem install compass
     git clone git@github.com:bbshih/sass_presentation.git

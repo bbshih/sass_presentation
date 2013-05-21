@@ -1,4 +1,6 @@
-/*
+//Toggle styles by deleting the first slash below
+
+//*
 // =====
 // Standard CSS
 // Reusing a snippet of styles requires copying and pasting
@@ -14,7 +16,7 @@ h1 {
   
 }
 
-//*/
+/*/
 // =====
 // SASS Mixin
 // SASS adds mixins so you can quickly add snippets of CSS to any location
@@ -30,10 +32,11 @@ p {
 
 h1 {
 // How would I add the background and height here?
-  
+  @include mindblown;
 }
 //*/
 
+//Toggle styles by adding a slash below
 /*
 // =====
 // SASS Mixin With Argument
